@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://baxstiauoh4lm"]
+
+[ext_resource type="Script" uid="uid://c0586f8kabe6f" path="res://name.gd" id="1_rq721"]
+
+[node name="name" type="Node2D" unique_id=1046415114]
+script = ExtResource("1_rq721")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=655286180]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(7354.7407, 18.354397)
+
+[node name="Label5" type="Label" parent="." unique_id=1134538956]
+offset_left = 222.0
+offset_top = 20.0
+offset_right = 413.0
+offset_bottom = 43.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "ACCORDING TO GOOGLE: THE MOST ORDINARY GUY'S NAME IN THE WORLD"
+
+[node name="Label" type="Label" parent="." unique_id=339053183]
+offset_left = 589.0
+offset_top = 148.0
+offset_right = 629.0
+offset_bottom = 171.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "HIs"
+
+[node name="Label2" type="Label" parent="." unique_id=418279892]
+offset_left = 144.0
+offset_top = 229.0
+offset_right = 188.0
+offset_bottom = 252.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "name"
+
+[node name="Label3" type="Label" parent="." unique_id=1620580767]
+offset_left = 947.0
+offset_top = 290.0
+offset_right = 991.0
+offset_bottom = 313.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "is"
+
+[node name="Label4" type="Label" parent="." unique_id=1587578313]
+visible = false
+offset_left = 499.0
+offset_top = 505.0
+offset_right = 543.0
+offset_bottom = 528.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "John Smith"

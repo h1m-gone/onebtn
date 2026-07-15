@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://cpjr6r3ivcd6l"]
+
+[ext_resource type="Script" uid="uid://l1cmw5rr3khe" path="res://asdfasdfasdf.gd" id="1_risw2"]
+
+[node name="finall" type="Node2D" unique_id=615757928]
+script = ExtResource("1_risw2")
+
+[node name="Label" type="Label" parent="." unique_id=814219356]
+visible = false
+offset_left = 416.0
+offset_top = 106.0
+offset_right = 456.0
+offset_bottom = 129.0
+text = "The ordinary guy did the ordinary thing"
+
+[node name="Label2" type="Label" parent="." unique_id=357954218]
+visible = false
+offset_left = 416.0
+offset_top = 139.0
+offset_right = 772.0
+offset_bottom = 162.0
+text = "he robbed the gas station to pay for gas"
+
+[node name="Label3" type="Label" parent="." unique_id=1340435474]
+visible = false
+offset_left = 480.0
+offset_top = 229.0
+offset_right = 836.0
+offset_bottom = 252.0
+scale = Vector2(2.670898, 2.2714539)
+text = "THE END"
+
+[node name="Button" type="Button" parent="." unique_id=529022771]
+visible = false
+offset_left = 255.0
+offset_top = 359.0
+offset_right = 342.0
+offset_bottom = 390.0
+text = "play again"
+
+[node name="Button2" type="Button" parent="." unique_id=1881882963]
+visible = false
+offset_left = 797.0
+offset_top = 359.0
+offset_right = 884.0
+offset_bottom = 390.0
+text = "find out ordinary guys' name"
+
+[node name="Timer" type="Timer" parent="Button2" unique_id=924565879]
+wait_time = 200.0
+
+[node name="Label" type="Label" parent="Button2" unique_id=470602862]
+visible = false
+layout_mode = 0
+offset_top = 48.0
+offset_right = 40.0
+offset_bottom = 71.0
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="timeout" from="Button2/Timer" to="." method="_on_timer_timeout"]
