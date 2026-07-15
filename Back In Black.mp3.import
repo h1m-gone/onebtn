@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://deurinju2xbnn"
+path="res://.godot/imported/Back In Black.mp3-1e381010156c5d92d4d0aabdabbfb200.mp3str"
+
+[deps]
+
+source_file="res://Back In Black.mp3"
+dest_files=["res://.godot/imported/Back In Black.mp3-1e381010156c5d92d4d0aabdabbfb200.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
